@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="container">
+        <form class="contactForm">
+            <div class="Title">
+                <h1 class="formTitle">Contact Form</h1>
+                <label class="formDesc">Fill the the below form to get help in next 24Hrs.</label>
+            </div>
+            <div class="Details">
+                <input type="text" placeholder="First Name" class="DetailsItem">
+                <input type="text" placeholder="Last Name" class="DetailsItem">
+                <input type="email" placeholder="Email Address" class="DetailsItem">
+                <p class="phoneNum">
+                    <select>
+                        <option class="optSelection">--Select--</option>
+                        <option data-countryCode="IND" value="+91">+91</option>
+                        <option data-countryCode="AUS" value="+61">+61</option>
+                        <option data-countryCode="ENG" value="+44">+44</option>
+                        <option data-countryCode="US" value="+1">+1</option>
+                        <option data-countryCode="EGT" value="+20">+20</option>
+                        <option data-countryCode="SRI" value="+94">+94</option>
+                        <option data-countryCode="AFG" value="+93">+93</option>
+                    </select>
+                    <input type="number" placeholder="Enter your phone" class="phonenumber">
+                </p>
+                <p class="country">
+                    Select your country of residence 
+                    <select>
+                        <option>--Select--</option>
+                        <option>INDIA</option>
+                        <option>AUSTRALIA</option>
+                        <option>ENGLAND</option>
+                        <option>PAKISTAN</option>
+                        <option>SOUTH AFRICA</option>
+                        <option>SRILANKA</option>
+                        <option>AFGANISTAN</option>
+                        <option>GHANA</option>
+                        <option>PORTUGAL</option>
+                        <option>ARGENTINA</option>
+                        <option>ITALIA</option>
+                        <option>NEWZELAND</option>
+                    </select>
+                </p>
+                <div class="gender">
+                    <label class="genderItem">Select Gender</label>
+                    <div class="genderItem">
+                        Male <input type="radio" name="gender" class="maleInput">
+                        Female <input type="radio" name="gender" class="femaleInput">
+                    </div>
+                </div>
+                <textarea cols="15" rows="10" placeholder="Some Additional Information" class="additionalInfo"></textarea>
+            </div>
+            <button class="submitbtn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

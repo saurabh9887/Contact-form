@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    margin: 43px 327px;
+    background-color: whitesmoke;
+}
+
+form{
+    border: 1px solid black;
+}
+
+.formTitle{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.formDesc{
+    font-size: 22px;
+}
+
+.Title{
+    margin: 30px 20px;
+    padding: 0 10px;
+}
+
+.Details{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.DetailsItem{
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.phonenumber{
+    padding: 10px;
+    margin-left: 10px;
+    margin: 10px 0;
+}
+
+.country{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+}
+
+.genderItem{
+    margin-bottom: 10px;
+}
+
+.maleInput,.femaleInput{
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.additionalInfo{
+    padding: 7px;
+    width: 537px;
+    height: 166px;
+}
+
+.submitbtn{
+    width: 80px;
+    height: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
